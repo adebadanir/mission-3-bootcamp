@@ -1,4 +1,7 @@
 @import url(styles/dashboard.css);
+@import url(styles/navabar.css);
+@import url(styles/banner.css);
+@import url(styles/cards.css);
 
 /* Modern reset with better practices */
 html,
@@ -15,8 +18,20 @@ body {
 }
 
 body {
-  background-color: #fce3d1;
+  background-color: #fffdf3;
 }
 header {
   background-color: #fff;
+}
+header,
+main {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  border-bottom: 1px solid #3a35411f;
 }
