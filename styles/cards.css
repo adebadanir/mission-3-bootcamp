@@ -125,6 +125,10 @@
     grid-column: 2;
     grid-row: 2;
   }
+  .card-tutor-image {
+    width: 36px;
+    height: 36px;
+  }
   .card-detail {
     max-width: 288px;
     max-height: 24px;
